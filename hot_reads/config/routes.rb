@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "*all" => "application#cors_preflight_check", :constraints => { :method => "OPTIONS" }
 
   resources :toplinks, only: [:index]
+  resources :links, only:[:create]
 
   namespace :api do
     namespace :v1 do
