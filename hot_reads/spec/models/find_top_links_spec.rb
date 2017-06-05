@@ -28,6 +28,5 @@ describe 'find_top_links_method' do
     expect(top_links.last.url).to_not eq("www.espn.com")
 
     expect(top_links.include?("www.desk.com")).to eq(false)
-
   end
 end
