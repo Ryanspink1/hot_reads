@@ -15,12 +15,12 @@ To serve program, run command `rails s` and navigate to url: `http://localhost:3
 
 Please use port 3001 if running in conjunction with URL Lock Box
 
-#Test Suite
+# Test Suite
 
 Testing is run by RSpec and Capybara
 To run test suite, run command  `rspec`
 
-#API Documentation
+# API Documentation
 
 API endpoints:
 
@@ -28,12 +28,12 @@ API endpoints:
 
 - `POST /links` allows URL Lock Box to make a post request to create a link
 
-#Production links
+# Production links
 
 - Hot Reads: `https://finalhotreads.herokuapp.com`
 
 - URL Lockbox: `https://urllockboxfinal.herokuapp.com/`
 
-#Known Bugs
+# Known Bugs
 
 - No Known bugs.
